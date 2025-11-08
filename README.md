@@ -32,14 +32,13 @@ Add the following to your `.env` file:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-5-nano,gpt-4,gpt-5  # Optional
-
+```
 
 ## Usage
-
-use Rmhl\LogAnalyzer\LogAnalyzer;
-
-$analyzer = new LogAnalyzerPackage();
+```
+$analyzer = new Rmhl\LogAnalyzer\LogAnalyzerPackage();
 echo $analyzer->analyze("Slow query detected");
+```
 
 ## License
 
