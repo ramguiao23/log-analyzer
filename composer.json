@@ -1,0 +1,37 @@
+{
+    "name": "rmhl/log-analyzer",
+    "description": "Analyze test logs through OpenAI and generate AI summaries.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rmhl\\LogAnalyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ram Guiao",
+            "email": "ramheelguiao23@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "openai-php/client": "^0.10",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8",
+        "php": "^8.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rmhl\\LogAnalyzer\\LogAnalyzerServiceProvider"
+            ]
+        }
+    }
+}
