@@ -27,8 +27,12 @@ Install via Composer:
 
 ## Configuration
 
+Add the following to your `.env` file:
+
+```env
 OPENAI_API_KEY=your_openai_api_key_here
-OPENAI_MODEL=gpt-5-nano,gpt-4,gpt-5 (Optional)
+OPENAI_MODEL=gpt-5-nano,gpt-4,gpt-5  # Optional
+
 
 ## Usage
 
