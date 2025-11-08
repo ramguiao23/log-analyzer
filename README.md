@@ -25,14 +25,17 @@
 
 Install via Composer:
 
+## Configuration
+
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-5-nano,gpt-4,gpt-5 (Optional)
+
 ## Usage
 
 use Rmhl\LogAnalyzer\LogAnalyzer;
 
-$analyzer = new LogAnalyzer();
-$summary = $analyzer->analyze('storage/logs/laravel.log');
-
-echo $summary;
+$analyzer = new LogAnalyzerPackage();
+echo $analyzer->analyze("Slow query detected");
 
 ## License
 

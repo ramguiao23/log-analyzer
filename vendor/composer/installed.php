@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'rmhl/log-analyzer',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ea50080639d922304f6c068bd5530c8af3f86d69',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,14 +22,12 @@
             'dev_requirement' => false,
         ),
         'openai-php/client' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '9eadda1e58f3ff8fb5fad34d6a8e0b2904217019',
+            'pretty_version' => 'v0.10.3',
+            'version' => '0.10.3.0',
+            'reference' => '4a565d145e0fb3ea1baba8fffe39d86c56b6dc2c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../openai-php/client',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'php-http/async-client-implementation' => array(
@@ -143,9 +141,9 @@
             'dev_requirement' => false,
         ),
         'rmhl/log-analyzer' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ea50080639d922304f6c068bd5530c8af3f86d69',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
