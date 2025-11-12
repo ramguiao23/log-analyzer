@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Rmhl\\LogAnalyzer\\": "src/"
+            "Rmhl\\LogAnalyzer\\": "src/",
+            "Rmhl\\LogAnalyzer\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "authors": [
