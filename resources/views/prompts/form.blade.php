@@ -1,10 +1,14 @@
-<div>
-    <label>Key</label><br>
-    <input type="text" name="key" value="{{ old('key', $prompt->key ?? '') }}" required><br><br>
+<div class="form-group">
+    <label for="key">Key</label>
+    <input type="text" class="form-control" id="key" name="key" value="{{ old('key', $prompt->key ?? '') }}" required>
+</div>
 
-    <label>System Prompt</label><br>
-    <textarea name="system">{{ old('system', $prompt->system ?? '') }}</textarea><br><br>
+<div class="form-group">
+    <label for="system">System Prompt</label>
+    <textarea class="form-control" id="system" name="system" rows="3">{{ old('system', $prompt->system ?? '') }}</textarea>
+</div>
 
-    <label>User Prompt</label><br>
-    <textarea name="user" required>{{ old('user', $prompt->user ?? '') }}</textarea>
+<div class="form-group">
+    <label for="user">User Prompt</label>
+    <textarea class="form-control" id="user" name="user" rows="3" required>{{ old('user', $prompt->user ?? '') }}</textarea>
 </div>
